@@ -8,6 +8,9 @@ const config = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     port: process.env.DB_PORT,
+    ssl: {  // Add SSL configuration for Render.com
+        rejectUnauthorized: false
+    }
 };
 
 export { config }; // Exporta el objeto como exportación nombrada
