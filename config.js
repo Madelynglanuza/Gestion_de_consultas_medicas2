@@ -1,5 +1,6 @@
 // config.js
 import dotenv from 'dotenv';
+console.log("CONFIG DB:", config);
 dotenv.config();
 
 const config = {
