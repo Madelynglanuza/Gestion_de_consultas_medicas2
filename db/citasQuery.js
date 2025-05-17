@@ -1,4 +1,4 @@
-// db/historial_pedidos.js
+// db/citas.js
 import pool from './db.js';
 
 const listarTodasCitasQuery = async () => {

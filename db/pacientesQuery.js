@@ -1,4 +1,4 @@
-// db/menu_items.js
+// db/pacientes.js
 import pool from './db.js';
 
 const listarTodosPacientesQuery = async () => {

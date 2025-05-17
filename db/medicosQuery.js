@@ -1,4 +1,4 @@
-// db/menu_item_ingredientes.js
+// db/medicos.js
 import pool from './db.js';
 
 const listarTodosMedicosQuery = async () => {

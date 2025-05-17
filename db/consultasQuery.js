@@ -1,4 +1,4 @@
-// db/ingredientes.js
+// db/consultas.js
 import pool from './db.js';
 
 const listarTodasConsultasQuery = async () => {
